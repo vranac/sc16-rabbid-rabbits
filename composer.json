@@ -1,0 +1,16 @@
+{
+    "name": "vranac/sc16-rabbid-rabbits",
+    "description": "RabbitMq workshop for Web Summer Camp 2016",
+    "require": {
+        "php-amqplib/php-amqplib": "v2.6.3",
+        "bunny/bunny": "v0.2.3",
+        "php-amqplib/thumper": "v0.5.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Srdjan Vranac",
+            "email": "vranac@gmail.com"
+        }
+    ]
+}
