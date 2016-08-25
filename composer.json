@@ -4,7 +4,8 @@
     "require": {
         "php-amqplib/php-amqplib": "v2.6.3",
         "bunny/bunny": "v0.2.3",
-        "php-amqplib/thumper": "v0.5.0"
+        "php-amqplib/thumper": "v0.5.0",
+        "vlucas/phpdotenv": "v2.3.0"
     },
     "license": "MIT",
     "authors": [
