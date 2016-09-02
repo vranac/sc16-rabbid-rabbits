@@ -11,7 +11,7 @@ use PhpAmqpLib\Wire\AMQPTable;
 $channel = require __DIR__ . '/../channel.php';
 
 $metadata = new AMQPTable([
-    'x-message-ttl' => 10000,
+    'x-message-ttl' => 30000,
     'x-dead-letter-exchange' => 'test_dlx_exchange', // Add name of DLX exchange
     // 'x-dead-letter-routing-key' => 'blah'
 ]);
